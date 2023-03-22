@@ -1,0 +1,22 @@
+div{
+    padding: 20px;
+    border: 1px dashed #ccc;
+}
+
+p{
+    padding: 10px;
+    border: 1px solid #ccc;
+    background: #eee;
+}
+
+button{
+    margin-right: 5px;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+h2{
+    padding: 20px;
+    font-weight: bold;
+}
