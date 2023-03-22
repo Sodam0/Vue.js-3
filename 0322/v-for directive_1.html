@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>v-for directive 연습1</title>
+    <style>
+        div{
+            padding: 20px;
+            border: 1px dashed #ccc;
+        }
+
+        p{
+            padding: 10px;
+            border: 1px solid #ccc;
+            background: #eee;
+        }
+
+        button{
+            margin-right: 5px;
+        }
+        table{
+            border-collapse: collapse;
+            width: 100%;
+        }
+        h2{
+            text-align: center;
+            font-weight: bold;
+        }
+        th, td{
+            padding: 10px 20px;
+            height: 50px;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+        th{
+            background: slategray;
+            color: #fff; font-weight: normal;
+        }
+        tr:nth-child(even){
+            background: whitesmoke;
+        }
+    </style>
+</head>
+<body>
+    <!-- 표만들기 -->
+    <section>
+        <h2>추천 도서 목록</h2>
+        <div id="list">
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col">번호</th>
+                        <th scope="col">제목</th>
+                        <th scope="col">저자</th>
+                        <th scope="col">출판연도</th>
+                        <th scope="col">출판사</th>
+                        <th scope="col">가격</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr v-for="book in books">
+                        <td>{{book.num}}</td>
+                        <td>{{book.title}}</td>
+                        <td>{{book.writer}}</td>
+                        <td>{{book.year}}</td>
+                        <td>{{book.publisher}}</td>
+                        <td>{{book.price}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- script -->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="js/directive_1.js"></script>
+
+</body>
+</html>
