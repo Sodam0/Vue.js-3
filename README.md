@@ -7,3 +7,5 @@ Today I Learned
 
 2023.03.23
 *(이전 v-bind에 연결) css의 스타일을 v-bind를 통해서 class를 지정했습니다.
+*button 개체를 통해 스타일을 toggle할 수 있도록 바인딩했습니다.
+
