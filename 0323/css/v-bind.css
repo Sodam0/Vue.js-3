@@ -1,0 +1,58 @@
+div{
+    padding: 20px;
+    border: 1px dashed #ccc;
+}
+
+p{
+    padding: 10px;
+    border: 1px solid #ccc;
+    background: #eee;
+}
+
+button{
+    margin-right: 5px;
+}
+
+#deco, #deco2{
+    display: flex;
+}
+
+#deco p, #deco2 p, #btn p, #btn2 p{
+    display: flex;
+    width: 160px;
+    height: 160px;
+    margin-right: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+h2{
+    padding: 20px;
+    font-weight: bold;
+}
+
+.dot{
+    border-style: dotted;
+    border-width: 3px; 
+    border-color: green;
+}
+
+.dash{
+    border-style: dashed;
+    border-width: 3px; 
+    border-color: cadetblue;
+}
+
+.radius{
+    border-radius: 20px;
+}
+
+.width{
+    border-width: 3px;
+}
+
