@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>v-model</title>
+    <link rel="stylesheet" href="css/v-model.css">
+</head>
+<body>
+    
+    <section>
+        <h2>Textarea</h2>
+        <div id="memo">
+            <textarea v-model="diary" placeholder="오늘의 하루는?"></textarea>
+            <p>{{diary}}</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>v-model checkbox + value</h2>
+        <div id="box">
+            <p><input type="checkbox" id="ck1" v-model="ck" value="딸기">
+                <label for="ck1">딸기</label></p>
+            <p><input type="checkbox" id="ck2" v-model="ck" value="사과">
+                <label for="ck2"></label>사과</p>
+            <p><input type="checkbox" id="ck3" v-model="ck" value="바나나">
+                <label for="ck3">바나나</label></p>
+            <p><input type="checkbox" id="ck4" v-model="ck" value="오렌지">
+                <label for="ck4">오렌지</label></p>
+            <p><input type="checkbox" id="ck5" v-model="ck" value="포도">
+                <label for="ck5">포도</label></p>
+            <p>{{ck}}</p>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="js/v-model.js"></script>
+</body>
+</html>
