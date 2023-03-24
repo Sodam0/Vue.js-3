@@ -8,4 +8,7 @@ Today I Learned
 <strong>2023.03.23</strong><br>
 *(이전 v-bind에 연결) css의 스타일을 v-bind를 통해서 class를 지정했습니다.<br>
 *button 개체를 통해 스타일을 toggle할 수 있도록 바인딩했습니다.<br>
-
+<br>
+<br>
+<strong>2023.03.24</strong><br>
+*양방형 바인딩이 가능한 v-model 속성으로 문자열 텍스트칸과 체크박스를 구현해보았습니다. 
