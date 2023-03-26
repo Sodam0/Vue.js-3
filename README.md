@@ -16,3 +16,8 @@ Today I Learned
 <br>
 <strong>2023.03.25</strong><br>
 *JAVA 오버라이딩과 오버로딩에 대해 공부했습니다. 고로 Vue 하루 휴식!<br>
+<br>
+<br>
+<strong>2023.03.26</strong><br>
+*v-model로 동의사항에 체크하면 버튼이 활성화되는 checkbox를 구현했습니다.
+*v-model radio를 이용해 이미지를 출력하는 checkbox를 구현했습니다. v-bind를 사용해 클릭한 감정표현 이미지가 출력됩니다.
