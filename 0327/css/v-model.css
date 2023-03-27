@@ -1,0 +1,42 @@
+div{
+    padding: 20px;
+    border: 1px dashed #ccc;
+}
+
+p{
+    padding: 10px;
+    border: 1px solid #ccc;
+    background: #eee;
+}
+
+button{
+    margin-left: 10px;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+h2{
+    font-weight: bold;
+    padding: 20px;
+}
+
+#feel img{
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+
+#style label{
+    padding: 10px;
+    display: block;
+    font-weight: bold;
+}
+
+#style p{
+    width: 280px;
+    height: 150px;
+    text-align: center;
+    line-height: 150px;
+}
