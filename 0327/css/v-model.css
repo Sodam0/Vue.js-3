@@ -35,8 +35,7 @@ h2{
 }
 
 #style p{
-    width: 280px;
-    height: 150px;
+    width: 300px;
     text-align: center;
-    line-height: 150px;
+    padding: 75px;
 }
