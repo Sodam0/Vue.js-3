@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=/, initial-scale=1.0">
+    <title>v-on</title>
+    <link rel="stylesheet" href="css/v-on.css">
+</head>
+<body>
+    
+    <section>
+        <h2>v-on:click</h2>
+        <div id="clicker">
+            <button v-on:click="sum++">클릭</button>
+            <p>클릭한 횟수는 <b>{{sum}}</b>입니다.</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>v-on: Calculator</h2>
+        <div id="calculator">
+            <p>숫자 1: <input type="number" v-model="n1"></p>
+            <p>숫자 2: <input type="number" v-model="n2"></p>
+            <ul>
+                <button v-on:click="nSum">더하기</button>
+                <button v-on:click="nMinus">빼기</button>
+                <button v-on:click="nMultiply">곱하기</button>
+                <button v-on:click="nDivision">나누기</button>
+                <button v-on:click="reset">Reset</button>
+            </ul>
+            <p id="sum1"> 
+                값: {{nResult}} 
+                <button v-on:click="multiply(2)">x2</button>
+                <button v-on:click="multiply(5)">x5</button>
+                <button v-on:click="multiply(10)">x10</button>
+            </p>
+        </div>
+    </section>
+
+    <section>
+        <h2>v-on : Submit button</h2>
+        <div id="sbtn">
+            <button v-bind:disabled="clicked" v-on:click="userClick">클릭</button>
+        </div>
+    </section>
+
+    <section>
+        <h2>v-on mousedown / mouseup</h2>
+        <div id="ckMouse">
+            <p v-on="{mousedown:doThis, mouseup:doThat}">{{text}}</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>mouseover / mouseout</h2>
+        <div id="onMouse">
+            <p v-on="{mouseover:doIn, mouseout:doOut}" v-bind:style="{background: doBg, color:doColor}">{{doText}}</p>
+        </div>
+    </section>
+
+
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="js/v-on.js"></script>
+
+</body>
+</html>
