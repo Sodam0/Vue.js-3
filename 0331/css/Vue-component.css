@@ -1,0 +1,15 @@
+h2{
+    color: royalblue;
+}
+
+div {
+    border: 1px dashed #ccc;
+    padding: 20px;
+}
+
+p{
+    background: #eee;
+    padding: 20px;
+}
+
+.welcome{color: cadetblue;}
