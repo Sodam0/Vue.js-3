@@ -48,3 +48,7 @@
 <strong>2023.03.31</strong><br>
 *v-on으로 지정한 마우스 입력이 들어와야 출력되는 마우스 이벤트를 구현했습니다.<br>
 *Vue component의 전역 / 지역 컴포넌트를 만들어보았습니다.<br>
+<br>
+<br>
+<strong>2023.04.01</strong><br>
+*Vue component prop 타입으로 v-bind를 주어 텍스트를 출력하였습니다.<br>
