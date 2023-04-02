@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>component</title>
+    <link rel="stylesheet" href="css/Vue-component.css">
+</head>
+<body>
+    <section>
+        <h2>Global</h2>
+        <div id="com1">
+            <global-comp class="welcome"></global-comp>
+        </div>
+    </section>
+
+    <section>
+        <h2>Local</h2>
+        <div id="com2">
+            <local-comp class="welcome"></local-comp>
+        </div>
+    </section>
+
+    <section>
+        <h2>props + v-bind</h2>
+        <div id="number">
+            <mycomp1 v-bind:comp-att1="num1"></mycomp1>
+            <mycomp2 v-bind:comp-att2="num2"></mycomp2>
+        </div>
+    </section>
+
+    <section>
+        <h2>component + v-for</h2>
+        <div id="com3">
+            <h3>{{html}}</h3>
+            <h3>{{css}}</h3>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="js/Vue-component.js"></script>
+
+</body>
+</html>
