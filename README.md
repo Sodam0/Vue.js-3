@@ -52,3 +52,7 @@
 <br>
 <strong>2023.04.01</strong><br>
 *Vue component prop 타입으로 v-bind를 주어 텍스트를 출력하였습니다.<br>
+<br>
+<br>
+<strong>2023.04.02</strong><br>
+*Vue component v-for로 텍스트 리스트를 출력하였습니다.<br>
