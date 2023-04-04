@@ -56,9 +56,13 @@
 <br>
 <strong>2023.04.02</strong><br>
 *Vue component v-for로 텍스트 리스트를 출력하였습니다.<br>
-
 <br>
 <br>
 <strong>2023.04.03</strong><br>
 *Vue component v-for로 4~6월의 기념일 리스트를 만들었습니다. 내일은 props를 이용해 v-bind로 7~9월 기념일 리스트를 만들 계획!<br>
-*Node.js의 환경 세팅을 마치고 Vite를 설치하여 시작페이지 파일을 만들었습니다. 
+*Node.js의 환경 세팅을 마치고 Vite를 설치하여 시작페이지 파일을 만들었습니다. <br>
+<br>
+<br>
+<strong>2023.04.04</strong><br>
+*props와 v-bind로 7~9월 기념일 리스트를 만들었습니다. <br>
+*파일은 업로드하지않았지만 Vite Vue로 횟수를 측정하는 버튼을 구현해보았습니다.<br>
