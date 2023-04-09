@@ -74,3 +74,7 @@
 <br>
 <strong>2023.04.06</strong><br>
 *Todo 리스트에 CSS를 추가하고 폰트와 UI 아이콘을 적용했습니다. 또한 LocalStorage에 Todo리스트의 데이터를 저장하여 출력되도록 스크립트를 작성하였습니다. 추가와 삭제가 바로 이루어지도록 하는 작업은 내일 이어서 할 계획!
+<br>
+<br>
+<strong>2023.04.09</strong><br>
+*완성하여 sodadam.dothome.co.kr에 todo 프로젝트를 업로드했습니다!
